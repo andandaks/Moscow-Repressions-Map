@@ -7,6 +7,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from shapely.geometry import Point
 
+import rtree
+import pygeos
 
 with st.echo(code_location='below'):
 
