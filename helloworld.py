@@ -1,18 +1,12 @@
-import matplotlib
+#import matplotlib
 import streamlit as st
 import numpy as np
-import math
+#import math
 import geopandas as gpd
 import pandas as pd
-import matplotlib
 import matplotlib.pyplot as plt
 from shapely.geometry import Point
-import altair as alt
-import altair as alt
-from vega_datasets import data
 
-import rtree
-import pygeos
 
 with st.echo(code_location='below'):
 
