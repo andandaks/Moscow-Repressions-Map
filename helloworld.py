@@ -17,7 +17,7 @@ import pygeos
 with st.echo(code_location='below'):
 
     def go():
-        df = pd.read_csv('/Users/andaks/Documents/addresses moscow.csv', sep = ',')
+        df = pd.read_csv('addresses moscow.csv', sep = ',')
         df2 = df[df['repressed'] > 1]
         ratio = df2['longitude'].count()/df['longitude'].count()
         st.title("Hello, repressions!")
